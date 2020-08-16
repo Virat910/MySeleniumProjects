@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20071" started-at="2020-08-16T08:16:18 IST" finished-at="2020-08-16T08:16:38 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20071" started-at="2020-08-16T08:16:18 IST" finished-at="2020-08-16T08:16:38 IST">
+      <class name="com.MantisBT.TestCases.VerifyValidLogin">
+        <test-method status="PASS" signature="checkValidUser()[pri:0, instance:com.MantisBT.TestCases.VerifyValidLogin@66480dd7]" name="checkValidUser" duration-ms="20006" started-at="2020-08-16T08:16:18 IST" finished-at="2020-08-16T08:16:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkValidUser -->
+      </class> <!-- com.MantisBT.TestCases.VerifyValidLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
