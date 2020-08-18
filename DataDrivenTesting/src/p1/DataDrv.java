@@ -15,7 +15,7 @@ public class DataDrv {
 	WebDriver bo;
 
 	@Test(dataProvider = "LoginCredentials")
-	public void f(String uid, String pd) throws InterruptedException {
+	public void loginPage(String uid, String pd) throws InterruptedException {
 
 		bo = new FirefoxDriver();
 		bo.manage().window().maximize();

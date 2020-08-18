@@ -4,25 +4,24 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class LoginPage3 {
+
 	WebDriver driver;
 
-	By username=By.xpath("//input[@name='username']");
-	
-	By password=By.xpath("//input[@name='password']");
+	public LoginPage3(WebDriver driver3) {
 
-	By login=By.xpath("//input[@class='button']");
-	
-	
-	
-	public LoginPage3(WebDriver driver) {
-		
-		this.driver=driver;
+		this.driver = driver3;
 	}
-	public void LoginToMantis(String userid,String pass) {
-		
+
+	By username = By.xpath("//input[@name='username']");
+
+	By password = By.xpath("//input[@name='password']");
+
+	By login = By.xpath("//input[@class='button']");
+
+	public void LoginToMantis(String userid, String pass) {
+
 		driver.findElement(username).sendKeys(userid);
 		driver.findElement(password).sendKeys(pass);
 		driver.findElement(login).click();
 	}
 }
-	
