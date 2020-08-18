@@ -6,6 +6,11 @@ import org.openqa.selenium.WebDriver;
 public class LoginPage2 {
 
 	WebDriver driver;
+	
+public LoginPage2(WebDriver driver2) {
+		
+		this.driver=driver2;
+	}
 
 	By username=By.xpath("//input[@name='username']");
 	
@@ -15,10 +20,7 @@ public class LoginPage2 {
 	
 	
 	
-	public LoginPage2(WebDriver driver) {
-		
-		this.driver=driver;
-	}
+	
 	
 	public void typeUsername(String uid) {
 		

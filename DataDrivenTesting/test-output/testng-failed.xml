@@ -5,7 +5,8 @@
     <classes>
       <class name="p1.DataDrv">
         <methods>
-          <include name="f" invocation-numbers="0 1"/>
+          <include name="tearDown"/>
+          <include name="f" invocation-numbers="1"/>
         </methods>
       </class> <!-- p1.DataDrv -->
     </classes>

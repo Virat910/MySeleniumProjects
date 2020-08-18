@@ -9,7 +9,7 @@ import com.mantisBT_3.LoginPage3;
 public class VerifyValidLogin3 {
 
 	@Test
-	public void verifyValidLogin() {
+	public void verifyLogin() {
 		WebDriver driver = new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.get("http://apps.qaplanet.in/bugtracker/login_page.php");

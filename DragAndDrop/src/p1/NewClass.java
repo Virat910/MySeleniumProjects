@@ -7,6 +7,7 @@ import org.openqa.selenium.interactions.Actions;
 
 public class NewClass {
 
+	
 	public static void main(String[] args) throws InterruptedException {
 
 		System.setProperty("webdriver.gecko.driver", "D:\\geckodriver.exe");

@@ -10,6 +10,7 @@ public class VerifyValidLogin {
 	public void checkValidUser() throws Exception {
 
 		System.setProperty("webdriver.gecko.driver", "D:\\geckodriver.exe");
+		
 		// This will launch specific browser and url
 		WebDriver driver = BrowsersFactory.BrowsersLaunch("FireFox",
 				"http://apps.qaplanet.in/bugtracker/my_view_page.php");

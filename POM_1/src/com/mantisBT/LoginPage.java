@@ -6,7 +6,11 @@ import org.openqa.selenium.WebDriver;
 public class LoginPage {
 	
 	WebDriver driver;
-
+	
+public LoginPage(WebDriver driver1) {
+		
+		this.driver=driver1;
+	}
 	By username=By.xpath("//input[@name='username']");
 	
 	By password=By.xpath("//input[@name='password']");
@@ -14,11 +18,6 @@ public class LoginPage {
 	By login=By.xpath("//input[@class='button']");
 	
 	
-	
-	public LoginPage(WebDriver driver) {
-		
-		this.driver=driver;
-	}
 	
 	public void typeUsername() {
 		
