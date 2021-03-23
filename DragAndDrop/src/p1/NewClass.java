@@ -7,7 +7,6 @@ import org.openqa.selenium.interactions.Actions;
 
 public class NewClass {
 
-	
 	public static void main(String[] args) throws InterruptedException {
 
 		System.setProperty("webdriver.gecko.driver", "D:\\geckodriver.exe");
@@ -16,7 +15,7 @@ public class NewClass {
 		driver.manage().window().maximize();
 
 		driver.get("https://jqueryui.com/draggable/");
-
+		System.out.println(driver.getCurrentUrl());
 		Thread.sleep(3000);
 
 		Actions act = new Actions(driver);

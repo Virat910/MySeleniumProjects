@@ -2,15 +2,15 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="62340" started-at="2020-08-13T12:36:04 IST" finished-at="2020-08-13T12:37:06 IST">
+  <suite name="Default suite" duration-ms="20166" started-at="2021-02-21T11:07:51 IST" finished-at="2021-02-21T11:08:12 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="62340" started-at="2020-08-13T12:36:04 IST" finished-at="2020-08-13T12:37:06 IST">
+    <test name="Default test" duration-ms="20166" started-at="2021-02-21T11:07:51 IST" finished-at="2021-02-21T11:08:12 IST">
       <class name="com.mantisBT_3.testcases.VerifyValidLogin3">
-        <test-method status="PASS" signature="verifyValidLogin()[pri:0, instance:com.mantisBT_3.testcases.VerifyValidLogin3@5ec0a365]" name="verifyValidLogin" duration-ms="62285" started-at="2020-08-13T12:36:04 IST" finished-at="2020-08-13T12:37:06 IST">
+        <test-method status="PASS" signature="verifyLogin()[pri:0, instance:com.mantisBT_3.testcases.VerifyValidLogin3@5ec0a365]" name="verifyLogin" duration-ms="20096" started-at="2021-02-21T11:07:51 IST" finished-at="2021-02-21T11:08:12 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyValidLogin -->
+        </test-method> <!-- verifyLogin -->
       </class> <!-- com.mantisBT_3.testcases.VerifyValidLogin3 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
